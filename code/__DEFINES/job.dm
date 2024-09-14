@@ -14,6 +14,7 @@
 #define SQUAD_CBRN "CBRN"
 #define SQUAD_UPP "Red Dawn"
 #define SQUAD_LRRP "Snake Eaters"
+#define SQUAD_IRO "Cell 12"
 
 // Job name defines
 #define JOB_SQUAD_MARINE "Rifleman"
@@ -39,6 +40,13 @@
 #define JOB_SQUAD_RTO "Radio Telephone Operator"
 #define JOB_SQUAD_MARINE_FORECON "FORECON Rifleman"
 #define JOB_SQUAD_SMARTGUN_FORECON "FORECON Smartgunner"
+
+#define JOB_IRO_STATION_CHIEF "IRO Station Chief"
+#define JOB_IRO_SCIENCE_OFFICER "IRO Science Officer"
+#define JOB_IRO_TECHNICIAN "IRO Technician"
+#define JOB_IRO_SUPERVISOR "IRO Supervisor"
+#define JOB_IRO_FIELD_AGENT "IRO Field Agent"
+#define JOB_IRO_CONTRACTOR "IRO Contractor"
 
 var/global/list/job_squad_roles = JOB_SQUAD_ROLES_LIST
 

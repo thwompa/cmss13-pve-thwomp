@@ -17,7 +17,6 @@ map almayer
 endmap
 
 map golden_arrow
-	default
 endmap
 
 map chapaev
@@ -28,3 +27,7 @@ endmap
 
 map golden_arrow_classic
 endmap
+
+map stsv_carlier
+    default
+end

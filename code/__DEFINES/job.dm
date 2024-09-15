@@ -369,11 +369,17 @@ GLOBAL_LIST_INIT(job_command_roles, JOB_COMMAND_ROLES_LIST)
 #define JOB_RIOT_CHIEF "Chief Riot Control"
 
 #define RIOT_JOB_LIST list(JOB_RIOT, JOB_RIOT_CHIEF)
-//-------- UAAC --------//
-#define JOB_TIS_IO "UAAC-TIS Intelligence Officer"
-#define JOB_TIS_SA "UAAC-TIS Special Agent"
 
-#define TIS_JOB_LIST list(JOB_TIS_SA, JOB_TIS_IO)
+//-------- IRO --------//
+#define JOB_IRO_STATION_CHIEF
+#define JOB_IRO_SCIENCE_OFFICER
+#define JOB_IRO_TECHNICIAN
+#define JOB_IRO_SUPERVISOR
+#define JOB_IRO_FIELD_AGENT
+#define JOB_IRO_CONTRACTOR
+
+#define IRO_JOB_LIST list(JOB_IRO_STATION_CHIEF, JOB_IRO_SCIENCE_OFFICER, JOB_IRO_TECHNICIAN, JOB_IRO_SUPERVISOR, JOB_IRO_FIELD AGENT, JOB_IRO_CONTRACTOR)
+
 //-------- DUTCH'S DOZEN --------//
 #define JOB_DUTCH_ARNOLD "Dutch's Dozen - Dutch"
 #define JOB_DUTCH_RIFLEMAN "Dutch's Dozen - Rifleman"

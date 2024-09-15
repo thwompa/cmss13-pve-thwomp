@@ -153,6 +153,13 @@ most of them are tied into map-placed objects. This should be reworked in the fu
 
 //=================================================
 
+//Interstellar Reconnaissance Office access levels (320-340)
+///found on IRO IDs
+#define ACCESS_IRO_BASIC 320
+#define ACCESS_IRO_ADVANCED 321
+
+//=================================================
+
 // Yautja Access Levels
 /// Requires a visible ID chip to open
 #define ACCESS_YAUTJA_SECURE 390

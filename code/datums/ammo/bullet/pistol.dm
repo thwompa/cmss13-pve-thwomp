@@ -264,3 +264,15 @@
 	penetration = 20
 	shrapnel_chance = SHRAPNEL_CHANCE_TIER_2
 
+// Used by VP76 (IRO)
+/datum/ammo/bullet/pistol/powerful
+	name = "powerful pistol bullet"
+	headshot_state = HEADSHOT_OVERLAY_HEAVY
+	debilitate = list(0,0,0,0,0,0,0,4)
+
+	accuracy = HIT_ACCURACY_TIER_3
+	damage = 50
+	penetration = ARMOR_PENETRATION_TIER_2
+	shrapnel_chance = SHRAPNEL_CHANCE_TIER_5
+	effective_range_max = 5
+	damage_falloff = DAMAGE_FALLOFF_TIER_6

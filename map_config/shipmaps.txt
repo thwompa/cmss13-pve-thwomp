@@ -29,5 +29,10 @@ map golden_arrow_classic
 endmap
 
 map stsv_carlier
+    default
+end
+
+
+map stsv_carlier
 default
 endmap

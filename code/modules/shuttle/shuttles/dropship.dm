@@ -225,6 +225,11 @@
 	id = DROPSHIP_SAIPAN
 	preferred_direction = SOUTH // If you are changing this, please update the dir of the path below as well
 
+/obj/docking_port/mobile/marine_dropship/transport
+	name = "Transport"
+	id = DROPSHIP_TRANSPORT
+	preferred_direction = SOUTH // If you are changing this, please update the dir of the path below as well
+
 /obj/docking_port/mobile/marine_dropship/saipan/get_transit_path_type()
 	return /turf/open/space/transit/dropship/saipan
 
@@ -382,7 +387,7 @@
 	auto_open = TRUE
 	roundstart_template = /datum/map_template/shuttle/midway
 
-	/obj/docking_port/stationary/marine_dropship/carlier_hanger
+/obj/docking_port/stationary/marine_dropship/carlier_hanger
 	name = "Underside Hangar"
 	id = CARLIER_LZ
 	auto_open = TRUE

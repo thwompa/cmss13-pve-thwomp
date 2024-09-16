@@ -1,0 +1,81 @@
+"ay" = (/obj/structure/shuttle/part/dropship2/transparent/engine_right_exhaust{icon = 'icons/turf/dropshipt.dmi'; icon_state = "23"},/turf/template_noop,/area/shuttle/drop1{name = "\improper Transport"})
+"aY" = (/obj/structure/shuttle/part/dropship2/transparent/outer_left_weapons{icon = 'icons/turf/dropshipt.dmi'; icon_state = "50"},/turf/template_noop,/area/shuttle/drop1{name = "\improper Transport"})
+"cB" = (/obj/structure/shuttle/part/dropship2/transparent/nose_center{icon = 'icons/turf/dropshipt.dmi'; icon_state = "61"},/turf/template_noop,/area/shuttle/drop1{name = "\improper Transport"})
+"eS" = (/turf/closed/shuttle/dropship2/transparent{icon_state = "36"; icon = 'icons/turf/dropshipt.dmi'},/area/shuttle/drop1{name = "\improper Transport"})
+"fe" = (/turf/closed/shuttle/dropship2{icon_state = "14"; icon = 'icons/turf/dropshipt.dmi'},/area/shuttle/drop1{name = "\improper Transport"})
+"fi" = (/turf/closed/shuttle/dropship2{icon_state = "43"; icon = 'icons/turf/dropshipt.dmi'},/area/shuttle/drop1{name = "\improper Transport"})
+"gb" = (/obj/structure/shuttle/part/dropship2/transparent/engine_right_exhaust{icon = 'icons/turf/dropshipt.dmi'; icon_state = "34"},/turf/template_noop,/area/shuttle/drop1{name = "\improper Transport"})
+"gz" = (/obj/structure/shuttle/part/dropship2/left_outer_wing_connector{icon = 'icons/turf/dropshipt.dmi'},/turf/template_noop,/area/shuttle/drop1{name = "\improper Transport"})
+"gP" = (/obj/structure/shuttle/part/dropship2/transparent/engine_left_cap{icon = 'icons/turf/dropshipt.dmi'; icon_state = "41"},/turf/template_noop,/area/shuttle/drop1{name = "\improper Transport"})
+"ig" = (/turf/closed/shuttle/dropship2/transparent{icon_state = "51"; icon = 'icons/turf/dropshipt.dmi'},/area/shuttle/drop1{name = "\improper Transport"})
+"ix" = (/obj/structure/shuttle/part/dropship2/right_outer_wing_connector{icon = 'icons/turf/dropshipt.dmi'},/turf/template_noop,/area/shuttle/drop1{name = "\improper Transport"})
+"kg" = (/turf/closed/shuttle/dropship2{icon_state = "21"; icon = 'icons/turf/dropshipt.dmi'},/area/shuttle/drop1{name = "\improper Transport"})
+"kY" = (/obj/structure/shuttle/part/dropship2/transparent/engine_right_cap{icon = 'icons/turf/dropshipt.dmi'; icon_state = "42"},/turf/template_noop,/area/shuttle/drop1{name = "\improper Transport"})
+"lS" = (/obj/structure/shuttle/part/dropship2/transparent/engine_left_exhaust{icon = 'icons/turf/dropshipt.dmi'; icon_state = "26"},/turf/open/space/basic,/area/shuttle/drop1{name = "\improper Transport"})
+"mm" = (/turf/closed/shuttle/dropship2/transparent{icon_state = "29"; icon = 'icons/turf/dropshipt.dmi'},/area/shuttle/drop1{name = "\improper Transport"})
+"nf" = (/obj/structure/shuttle/part/dropship2/right_inner_wing_connector{icon = 'icons/turf/dropshipt.dmi'},/turf/template_noop,/area/shuttle/drop1{name = "\improper Transport"})
+"nr" = (/turf/closed/shuttle/dropship2/transparent{icon_state = "44"; icon = 'icons/turf/dropshipt.dmi'},/area/shuttle/drop1{name = "\improper Transport"})
+"oi" = (/turf/closed/shuttle/dropship2{icon_state = "30"; icon = 'icons/turf/dropshipt.dmi'},/area/shuttle/drop1{name = "\improper Transport"})
+"oA" = (/obj/structure/shuttle/part/dropship2/transparent/outer_right_weapons{icon = 'icons/turf/dropshipt.dmi'; icon_state = "53"},/turf/template_noop,/area/shuttle/drop1{name = "\improper Transport"})
+"rC" = (/obj/structure/shuttle/part/dropship2/transparent/nose_top_left{icon = 'icons/turf/dropshipt.dmi'; icon_state = "60"},/turf/template_noop,/area/shuttle/drop1{name = "\improper Transport"})
+"rT" = (/obj/structure/shuttle/part/dropship2/transparent/right_outer_bottom_wing{icon = 'icons/turf/dropshipt.dmi'},/turf/template_noop,/area/shuttle/drop1{name = "\improper Transport"})
+"sh" = (/turf/closed/shuttle/dropship2{icon_state = "38"; icon = 'icons/turf/dropshipt.dmi'},/area/shuttle/drop1{name = "\improper Transport"})
+"tc" = (/turf/closed/shuttle/dropship2{icon_state = "54"; icon = 'icons/turf/dropshipt.dmi'},/area/shuttle/drop1{name = "\improper Transport"})
+"tr" = (/turf/closed/shuttle/dropship2{icon_state = "47"; icon = 'icons/turf/dropshipt.dmi'},/area/shuttle/drop1{name = "\improper Transport"})
+"tA" = (/obj/docking_port/mobile/marine_dropship/normandy,/turf/open/shuttle/dropship{icon_state = "rasputin3"},/area/shuttle/drop1{name = "\improper Transport"})
+"uY" = (/obj/structure/shuttle/part/dropship2/transparent/engine_left_exhaust{icon = 'icons/turf/dropshipt.dmi'; icon_state = "22"},/turf/template_noop,/area/shuttle/drop1{name = "\improper Transport"})
+"ve" = (/obj/structure/shuttle/part/dropship2/nose_front_left{icon = 'icons/turf/dropshipt.dmi'; icon_state = "57"},/turf/template_noop,/area/shuttle/drop1{name = "\improper Transport"})
+"wJ" = (/obj/structure/shuttle/part/dropship2/bottom_left_wall{icon = 'icons/turf/dropshipt.dmi'},/turf/template_noop,/area/shuttle/drop1{name = "\improper Transport"})
+"xb" = (/obj/structure/shuttle/part/dropship2/transparent/nose_top_right{icon = 'icons/turf/dropshipt.dmi'; icon_state = "62"},/turf/template_noop,/area/shuttle/drop1{name = "\improper Transport"})
+"xk" = (/obj/structure/shuttle/part/dropship2/transparent/engine_right_cap{icon = 'icons/turf/dropshipt.dmi'; icon_state = "49"},/turf/template_noop,/area/shuttle/drop1{name = "\improper Transport"})
+"xv" = (/turf/closed/shuttle/dropship2{icon_state = "12"; icon = 'icons/turf/dropshipt.dmi'},/area/shuttle/drop1{name = "\improper Transport"})
+"zb" = (/obj/structure/bed/chair/dropship/passenger{dir = 4},/turf/open/shuttle/dropship{icon_state = "rasputin15"},/area/shuttle/drop1{name = "\improper Transport"})
+"zh" = (/obj/structure/shuttle/part/dropship2/bottom_right_wall{icon = 'icons/turf/dropshipt.dmi'; icon_state = "13"},/turf/template_noop,/area/shuttle/drop1{name = "\improper Transport"})
+"zM" = (/turf/open/shuttle/dropship{icon_state = "rasputin15"},/area/shuttle/drop1{name = "\improper Transport"})
+"Ap" = (/turf/closed/shuttle/dropship2/transparent{icon_state = "52"; icon = 'icons/turf/dropshipt.dmi'},/area/shuttle/drop1{name = "\improper Transport"})
+"Av" = (/obj/structure/shuttle/part/dropship2/transparent/engine_right_exhaust{icon = 'icons/turf/dropshipt.dmi'; icon_state = "27"},/turf/template_noop,/area/shuttle/drop1{name = "\improper Transport"})
+"Ay" = (/turf/closed/shuttle/dropship2{icon_state = "56"; icon = 'icons/turf/dropshipt.dmi'},/area/shuttle/drop1{name = "\improper Transport"})
+"AC" = (/obj/structure/shuttle/part/dropship2/transparent/engine_left_cap{icon = 'icons/turf/dropshipt.dmi'; icon_state = "48"},/turf/template_noop,/area/shuttle/drop1{name = "\improper Transport"})
+"Bk" = (/turf/closed/shuttle/dropship2{icon_state = "37"; icon = 'icons/turf/dropshipt.dmi'},/area/shuttle/drop1{name = "\improper Transport"})
+"Bo" = (/turf/open/shuttle/dropship{icon_state = "rasputin3"},/area/shuttle/drop1{name = "\improper Transport"})
+"BF" = (/turf/template_noop,/area/template_noop)
+"Cr" = (/turf/closed/shuttle/dropship2/transparent{icon_state = "46"; icon = 'icons/turf/dropshipt.dmi'},/area/shuttle/drop1{name = "\improper Transport"})
+"DJ" = (/turf/closed/shuttle/dropship2{icon_state = "25"; icon = 'icons/turf/dropshipt.dmi'},/area/shuttle/drop1{name = "\improper Transport"})
+"Ep" = (/turf/closed/shuttle/dropship2/transparent{icon_state = "58"; icon = 'icons/turf/dropshipt.dmi'},/area/shuttle/drop1{name = "\improper Transport"})
+"Fz" = (/obj/structure/shuttle/part/dropship2/transparent/engine_left_exhaust{icon = 'icons/turf/dropshipt.dmi'; icon_state = "28"},/turf/template_noop,/area/shuttle/drop1{name = "\improper Transport"})
+"GD" = (/obj/structure/shuttle/part/dropship2/transparent/engine_left_exhaust{icon = 'icons/turf/dropshipt.dmi'; icon_state = "35"},/turf/template_noop,/area/shuttle/drop1{name = "\improper Transport"})
+"GW" = (/obj/structure/shuttle/part/dropship2/transparent/left_outer_bottom_wing{icon = 'icons/turf/dropshipt.dmi'},/turf/template_noop,/area/shuttle/drop1{name = "\improper Transport"})
+"Iw" = (/obj/structure/shuttle/part/dropship2/left_inner_wing_connector{icon = 'icons/turf/dropshipt.dmi'},/turf/template_noop,/area/shuttle/drop1{name = "\improper Transport"})
+"Kj" = (/turf/closed/shuttle/dropship2{icon_state = "32"; icon = 'icons/turf/dropshipt.dmi'},/area/shuttle/drop1{name = "\improper Transport"})
+"LW" = (/obj/effect/attach_point/weapon/dropship2/right_fore,/turf/template_noop,/area/template_noop)
+"Mm" = (/turf/closed/shuttle/dropship2{icon_state = "10"; icon = 'icons/turf/dropshipt.dmi'},/area/shuttle/drop1{name = "\improper Transport"})
+"MN" = (/obj/structure/shuttle/part/dropship2/transparent/left_outer_inner_wing{icon = 'icons/turf/dropshipt.dmi'},/turf/template_noop,/area/shuttle/drop1{name = "\improper Transport"})
+"NV" = (/turf/closed/shuttle/dropship2/transparent{icon_state = "39"; icon = 'icons/turf/dropshipt.dmi'},/area/shuttle/drop1{name = "\improper Transport"})
+"Pk" = (/turf/closed/shuttle/dropship2{icon_state = "15"; icon = 'icons/turf/dropshipt.dmi'},/area/shuttle/drop1{name = "\improper Transport"})
+"PX" = (/turf/closed/shuttle/dropship2{icon_state = "20"; icon = 'icons/turf/dropshipt.dmi'},/area/shuttle/drop1{name = "\improper Transport"})
+"Qm" = (/turf/closed/shuttle/dropship2/transparent{icon_state = "33"; icon = 'icons/turf/dropshipt.dmi'},/area/shuttle/drop1{name = "\improper Transport"})
+"Sq" = (/obj/structure/machinery/computer/shuttle/dropship/flight{icon = 'icons/turf/dropshipt.dmi'; icon_state = "55"},/turf/open/shuttle/dropship{icon_state = "rasputin15"},/area/shuttle/drop1{name = "\improper Transport"})
+"Tb" = (/obj/structure/bed/chair/dropship/passenger{dir = 8},/turf/open/shuttle/dropship{icon_state = "rasputin15"},/area/shuttle/drop1{name = "\improper Transport"})
+"Ua" = (/obj/structure/shuttle/part/dropship2/transparent/right_inner_bottom_wing{icon = 'icons/turf/dropshipt.dmi'},/turf/template_noop,/area/shuttle/drop1{name = "\improper Transport"})
+"Wv" = (/obj/structure/shuttle/part/dropship2/transparent/engine_right_exhaust{icon = 'icons/turf/dropshipt.dmi'; icon_state = "40"},/turf/template_noop,/area/shuttle/drop1{name = "\improper Transport"})
+"XG" = (/obj/structure/bed/chair/dropship/pilot{dir = 1},/turf/open/shuttle/dropship{icon_state = "rasputin15"},/area/shuttle/drop1{name = "\improper Transport"})
+"YV" = (/obj/structure/shuttle/part/dropship2/nose_front_right{icon = 'icons/turf/dropshipt.dmi'; icon_state = "59"},/turf/template_noop,/area/shuttle/drop1{name = "\improper Transport"})
+"Zj" = (/turf/closed/shuttle/dropship2{icon_state = "24"; icon = 'icons/turf/dropshipt.dmi'},/area/shuttle/drop1{name = "\improper Transport"})
+
+(1,1,1) = {"
+BFBFBFrCcBxbBFBFBF
+BFBFBFveEpYVBFBFBF
+BFBFBFtcSqAyBFBFBF
+BFBFaYigXGApoABFLW
+gPkYfinrzMCrtrACxk
+GDeSBkzbBoTbshNVWv
+FzmmoizbBoTbKjQmgb
+uYayZjzbBoTbDJlSAv
+BFBFPXzbtATbkgBFBF
+BFBFBozMBozMBoBFBF
+BFBFBozMBozMBoBFBF
+BFBFfezbBoTbPkBFBF
+BFBFwJMmzMxvzhBFBF
+BFBFBFIwBFnfBFBFBF
+BFGWMNgzBFixUarTBF
+"}

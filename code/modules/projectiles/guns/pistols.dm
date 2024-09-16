@@ -846,7 +846,7 @@ It is a modified Beretta 93R, and can fire three-round burst or single fire. Whe
 // IRO gun, basically a vp70 but cooler
 /obj/item/weapon/gun/pistol/vp76
 	name = "\improper VP76 pistol"
-	desc = "Standard issue for IRO agents."
+	desc = "A sleek H&K VP70 semi-automatic pistol, slimmed down and equipped with high-quality sub-components, including a hair trigger, grip safety, and six-port muzzle break. Commonly issued as the standard service weapon to agents in the federal intelligence apparatus. The serial number has been scratched out."
 	icon = 'icons/obj/items/weapons/guns/guns_by_faction/event.dmi'
 	icon_state = "vp76"
 	item_state = "vp76"

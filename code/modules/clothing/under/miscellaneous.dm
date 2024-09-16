@@ -239,3 +239,40 @@
 	desc = "It's a uniform that has a Wey-Yu insignia on it with the words \"Trainee\" stamped below."
 	icon_state = "trainee_uniform"
 	item_state = "trainee_uniform"
+
+/obj/item/clothing/under/iroclothes
+	name = " IRO Uniform"
+	desc = "A pair of slacks and a button-down shirt; the standard uniform of the IRO."
+	icon = 'icons/obj/items/clothing/uniforms.dmi'
+	icon_state = "iro_uniform_cyan"
+	item_state = "iro_uniform_cyan"
+	item_icons = list(
+		WEAR_BODY = 'icons/mob/humans/onmob/uniform_1.dmi'
+	)
+	armor_melee = CLOTHING_ARMOR_LOW
+	armor_bullet = CLOTHING_ARMOR_LOW
+	armor_laser = CLOTHING_ARMOR_NONE
+	armor_energy = CLOTHING_ARMOR_NONE
+	armor_bomb = CLOTHING_ARMOR_NONE
+	armor_bio = CLOTHING_ARMOR_NONE
+	armor_rad = CLOTHING_ARMOR_NONE
+	armor_internaldamage = CLOTHING_ARMOR_LOW
+	flags_jumpsuit = UNIFORM_SLEEVE_ROLLABLE|UNIFORM_JACKET_REMOVABLE
+
+/obj/item/clothing/under/iroclothes/grey
+	name = "Grey IRO Uniform"
+	desc = "A pair of slacks and a button-down shirt; the standard uniform of the IRO."
+	icon_state = "iro_uniform_grey"
+	item_state = "iro_uniform_grey"
+
+/obj/item/clothing/under/iroclothes/white
+	name = "White IRO Uniform"
+	desc = "A pair of slacks and a button-down shirt; the standard uniform of the IRO."
+	icon_state = "iro_uniform_white"
+	item_state = "iro_uniform_white"
+
+/obj/item/clothing/under/iroclothes/blue
+	name = "Blue IRO Uniform"
+	desc = "A pair of slacks and a button-down shirt; the standard uniform of the IRO."
+	icon_state = "iro_uniform_blue"
+	item_state = "iro_uniform_blue"

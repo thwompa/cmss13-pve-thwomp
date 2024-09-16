@@ -22,7 +22,7 @@
 "sh" = (/turf/closed/shuttle/dropship2{icon_state = "38"; icon = 'icons/turf/dropshipt.dmi'},/area/shuttle/drop1{name = "\improper Transport"})
 "tc" = (/turf/closed/shuttle/dropship2{icon_state = "54"; icon = 'icons/turf/dropshipt.dmi'},/area/shuttle/drop1{name = "\improper Transport"})
 "tr" = (/turf/closed/shuttle/dropship2{icon_state = "47"; icon = 'icons/turf/dropshipt.dmi'},/area/shuttle/drop1{name = "\improper Transport"})
-"tA" = (/obj/docking_port/mobile/marine_dropship/normandy,/turf/open/shuttle/dropship{icon_state = "rasputin3"},/area/shuttle/drop1{name = "\improper Transport"})
+"tA" = (/obj/docking_port/mobile/marine_dropship/normandy{name = "transport"; id = "dropship_transport"},/turf/open/shuttle/dropship{icon_state = "rasputin3"},/area/shuttle/drop1{name = "\improper Transport"})
 "uY" = (/obj/structure/shuttle/part/dropship2/transparent/engine_left_exhaust{icon = 'icons/turf/dropshipt.dmi'; icon_state = "22"},/turf/template_noop,/area/shuttle/drop1{name = "\improper Transport"})
 "ve" = (/obj/structure/shuttle/part/dropship2/nose_front_left{icon = 'icons/turf/dropshipt.dmi'; icon_state = "57"},/turf/template_noop,/area/shuttle/drop1{name = "\improper Transport"})
 "wJ" = (/obj/structure/shuttle/part/dropship2/bottom_left_wall{icon = 'icons/turf/dropshipt.dmi'},/turf/template_noop,/area/shuttle/drop1{name = "\improper Transport"})

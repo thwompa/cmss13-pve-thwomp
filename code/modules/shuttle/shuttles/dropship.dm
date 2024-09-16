@@ -382,6 +382,12 @@
 	auto_open = TRUE
 	roundstart_template = /datum/map_template/shuttle/midway
 
+	/obj/docking_port/stationary/marine_dropship/golden_arrow_hangar
+	name = "Underside Hangar"
+	id = CARLIER_LZ
+	auto_open = TRUE
+	roundstart_template = /datum/map_template/shuttle/transport
+
 /obj/docking_port/stationary/marine_dropship/crash_site
 	auto_open = TRUE
 
@@ -443,3 +449,7 @@
 /datum/map_template/shuttle/tripoli
 	name = "Tripoli"
 	shuttle_id = DROPSHIP_TRIPOLI
+
+	/datum/map_template/shuttle/tripoli
+	name = "Transport"
+	shuttle_id = DROPSHIP_TRANSPORT

@@ -875,7 +875,7 @@
 	storage_flags = STORAGE_ALLOW_QUICKDRAW|STORAGE_FLAGS_POUCH
 	can_hold = list(
 
-/obj/item/clothing/accessory/storage/holster/discreet
+/obj/item/clothing/accessory/storage/holster/discreet //secret holster for IRO agents
 	name = "suspenders"
 	desc = "A discreet handgun holster disguised as a set of suspenders. Perfect for concealed carry."
 	icon_state = "holster"

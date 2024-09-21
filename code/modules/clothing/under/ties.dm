@@ -875,6 +875,13 @@
 	storage_flags = STORAGE_ALLOW_QUICKDRAW|STORAGE_FLAGS_POUCH
 	can_hold = list(
 
+/obj/item/clothing/accessory/storage/holster/discreet
+	name = "suspenders"
+	desc = "A discreet handgun holster disguised as a set of suspenders. Perfect for concealed carry."
+	icon_state = "holster"
+	item_state = "holster_low"
+	high_visibility = FALSE
+
 //Can hold variety of pistols and revolvers together with ammo for them. Can also hold the flare pistol and signal/illumination flares.
 	/obj/item/weapon/gun/pistol,
 	/obj/item/weapon/gun/energy/taser,

@@ -497,7 +497,7 @@
 	blood_overlay_type = "armor"
 	flags_armor_protection = 0
 
-/obj/item/clothing/suit/windreaker/windbreaker_iro
+/obj/item/clothing/suit/windbreaker/windbreaker_iro
 	name = "IRO windbreaker"
 	desc = "A windbreaker issued to IRO agents. Warm when it's cold and cool when it's hot."
 	icon = 'icons/obj/items/clothing/cm_suits.dmi'
@@ -509,19 +509,19 @@
 	flags_armor_protection = BODY_FLAG_CHEST|BODY_FLAG_ARMS
 	armor_bullet = CLOTHING_ARMOR_MEDIUM
 
-/obj/item/clothing/suit/windreaker/windbreaker_iro/brown
+/obj/item/clothing/suit/windbreaker/windbreaker_iro/brown
 	name = "IRO windbreaker"
 	desc = "A windbreaker issued to IRO agents. Warm when it's cold and cool when it's hot. This one is brown."
 	icon_state = "iro_jacket_brown"
 	item_state = "iro_jacket_brown"
 
-/obj/item/clothing/suit/windreaker/windbreaker_iro/green
+/obj/item/clothing/suit/windbreaker/windbreaker_iro/green
 	name = "IRO windbreaker"
 	desc = "A windbreaker issued to IRO agents. Warm when it's cold and cool when it's hot. This one is green."
 	icon_state = "iro_jacket_green"
 	item_state = "iro_jacket_green"
 
-/obj/item/clothing/suit/windreaker/windbreaker_iro/blue
+/obj/item/clothing/suit/windbreaker/windbreaker_iro/blue
 	name = "IRO windbreaker"
 	desc = "A windbreaker issued to IRO agents. Warm when it's cold and cool when it's hot. This one is blue."
 	icon_state = "iro_jacket_blue"

@@ -1,3 +1,3 @@
 /datum/faction/iro
-	name = "Interstellar Reconnaissance office"
+	name = "Interstellar Reconnaissance Office"
 	faction_tag = FACTION_IRO

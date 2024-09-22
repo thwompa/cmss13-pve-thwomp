@@ -16,5 +16,8 @@
 ///Support Synthetic
 #define PAY_SHORT_IRO_SS "IRO_SS"
 
+///Supervisor
+#define PAY_SHORT_IRO_SV "IRO_SV"
+
 ///Station Chief
 #define PAY_SHORT_IRO_SC "IRO_SC"

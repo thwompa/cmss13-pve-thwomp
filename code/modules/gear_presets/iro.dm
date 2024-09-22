@@ -120,29 +120,27 @@
 	new_human.equip_to_slot_or_del(new /obj/item/storage/box/attachments(new_human), WEAR_IN_BACK)
 
 //*****************************************************************************************************/
-/*
-/datum/equipment_preset/iro/duty/engi
-	name = "Military iro (Engineer)"
-	paygrades = list(PAY_SHORT_VAI_E = JOB_PLAYTIME_TIER_0)
 
-	role_comm_title = "Eng"
+/datum/equipment_preset/iro/duty/engi
+	name = "Technician"
+	paygrades = list(PAY_SHORT_IRO_T = JOB_PLAYTIME_TIER_0)
+
+	role_comm_title = "Tch"
 	flags = EQUIPMENT_PRESET_EXTRA
 
-	assignment = "VAIPO Engineering Specialist"
-	rank = JOB_iro_ENGI
-	skills = /datum/skills/iro/engi
-	faction = FACTION_iro
+	assignment = "IRO Technician"
+	rank = JOB_IRO_TECHNICIAN
+	skills = /datum/skills/iro/technician
+	faction = FACTION_IRO
 
 /datum/equipment_preset/iro/duty/engi/load_gear(mob/living/carbon/human/new_human)
-	new_human.equip_to_slot_or_del(new /obj/item/clothing/under/tshirt/w_br, WEAR_BODY)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/under/iroclothes, WEAR_BODY)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/accessory/storage/tool_webbing/equipped, WEAR_ACCESSORY)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/accessory/holobadge/cord, WEAR_ACCESSORY)
 	new_human.equip_to_slot_or_del(new headset_type, WEAR_L_EAR)
-	new_human.equip_to_slot_or_del(new /obj/item/clothing/suit/storage/marine/light/vest, WEAR_JACKET)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/suit/windbreaker/windbreaker_iro, WEAR_JACKET)
 	new_human.equip_to_slot_or_del(new /obj/item/device/binoculars/range/designator, WEAR_IN_JACKET)
-	new_human.equip_to_slot_or_del(new /obj/item/weapon/gun/rifle/mar40/carbine/tactical, WEAR_J_STORE)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/gloves/marine/veteran, WEAR_HANDS)
-	new_human.equip_to_slot_or_del(new /obj/item/clothing/head/helmet/marine, WEAR_HEAD)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/shoes/veteran/pmc/knife, WEAR_FEET)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/glasses/sunglasses/big, WEAR_FACE)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/glasses/welding/superior, WEAR_EYES)
@@ -150,10 +148,6 @@
 	new_human.equip_to_slot_or_del(new /obj/item/device/motiondetector/hacked/iro, WEAR_WAIST)
 	new_human.equip_to_slot_or_del(new /obj/item/storage/pouch/firstaid/full, WEAR_L_STORE)
 	new_human.equip_to_slot_or_del(new /obj/item/storage/pouch/magazine/large, WEAR_R_STORE)
-	new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/rifle/mar40/extended, WEAR_IN_R_STORE)
-	new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/rifle/mar40/extended, WEAR_IN_R_STORE)
-	new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/rifle/mar40, WEAR_IN_R_STORE)
-	new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/rifle/mar40, WEAR_IN_R_STORE)
 	//backpack and stuff in it
 	new_human.equip_to_slot_or_del(new /obj/item/storage/backpack/marine/engineerpack/ert, WEAR_BACK)
 	new_human.equip_to_slot_or_del(new /obj/item/explosive/plastic/breaching_charge, WEAR_IN_BACK)
@@ -169,37 +163,30 @@
 //*****************************************************************************************************/
 
 /datum/equipment_preset/iro/duty/medic
-	name = "Military iro (Medic)"
-	paygrades = list(PAY_SHORT_VAI_M = JOB_PLAYTIME_TIER_0)
-	role_comm_title = "Med"
+	name = "Science Officer"
+	paygrades = list(PAY_SHORT_IRO_SS = JOB_PLAYTIME_TIER_0)
+	role_comm_title = "Sci"
 	flags = EQUIPMENT_PRESET_EXTRA
 
-	assignment = "VAIMS Medical Specialist"
-	rank = JOB_iro_MEDIC
-	skills = /datum/skills/iro/medic
-	faction = FACTION_iro
+	assignment = "IRO Science Officer"
+	rank = JOB_IRO_SCIENCE_OFFICER
+	skills = /datum/skills/iro/science_officer
+	faction = FACTION_IRO
 
 /datum/equipment_preset/iro/duty/medic/load_gear(mob/living/carbon/human/new_human)
 	//clothing
-	new_human.equip_to_slot_or_del(new /obj/item/clothing/under/tshirt/w_br, WEAR_BODY)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/under/iroclothes/blue, WEAR_BODY)
 	new_human.equip_to_slot_or_del(new headset_type, WEAR_L_EAR)
-	new_human.equip_to_slot_or_del(new /obj/item/clothing/suit/storage/marine/light/vest, WEAR_JACKET)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/accessory/storage/surg_vest/equipped, WEAR_ACCESSORY)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/accessory/holobadge/cord, WEAR_ACCESSORY)
 	new_human.equip_to_slot_or_del(new /obj/item/device/binoculars/range, WEAR_IN_JACKET)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/gloves/marine/veteran, WEAR_HANDS)
-	new_human.equip_to_slot_or_del(new /obj/item/clothing/head/helmet/marine, WEAR_HEAD)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/shoes/veteran/pmc/knife, WEAR_FEET)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/glasses/hud/health, WEAR_EYES)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/glasses/sunglasses/big, WEAR_FACE)
-	new_human.equip_to_slot_or_del(new /obj/item/weapon/gun/rifle/mar40/carbine/tactical, WEAR_J_STORE)
 	//storage items
 	new_human.equip_to_slot_or_del(new /obj/item/storage/pouch/magazine/large, WEAR_L_STORE)
 	new_human.equip_to_slot_or_del(new /obj/item/storage/pouch/medkit/full_advanced, WEAR_R_STORE)
-	new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/rifle/mar40/extended, WEAR_IN_L_STORE)
-	new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/rifle/mar40/extended, WEAR_IN_L_STORE)
-	new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/rifle/mar40, WEAR_IN_L_STORE)
-	new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/rifle/mar40, WEAR_IN_L_STORE)
 	new_human.equip_to_slot_or_del(new /obj/item/storage/belt/medical/lifesaver/full/dutch, WEAR_WAIST)
 	//backpack and stuff in it
 	new_human.equip_to_slot_or_del(new /obj/item/storage/backpack/lightpack, WEAR_BACK)
@@ -209,26 +196,24 @@
 	new_human.equip_to_slot_or_del(new /obj/item/roller/surgical, WEAR_IN_BACK)
 	new_human.equip_to_slot_or_del(new /obj/item/device/healthanalyzer, WEAR_IN_BACK)
 	new_human.equip_to_slot_or_del(new /obj/item/storage/box/packet/smoke, WEAR_IN_BACK)
-	new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/rifle/mar40/extended, WEAR_IN_BACK)
-	new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/rifle/mar40, WEAR_IN_BACK)
 
 //*****************************************************************************************************/
 
 /datum/equipment_preset/iro/duty/leader
-	name = "Military iro (Leader)"
-	paygrades = list(PAY_SHORT_VAI_L = JOB_PLAYTIME_TIER_0)
-	role_comm_title = "TL"
+	name = "Supervisor"
+	paygrades = list(PAY_SHORT_IRO_SV = JOB_PLAYTIME_TIER_0)
+	role_comm_title = "Spv"
 	flags = EQUIPMENT_PRESET_EXTRA
 
-	assignment = "VAIPO Team Leader"
-	rank = JOB_iro_TL
-	skills = /datum/skills/iro/leader
-	faction = FACTION_iro
+	assignment = "IRO Supervisor"
+	rank = JOB_IRO_SUPERVISOR
+	skills = /datum/skills/iro/supervisor
+	faction = FACTION_IRO
 
 /datum/equipment_preset/iro/duty/leader/load_gear(mob/living/carbon/human/new_human)
 	//clothes
 	new_human.equip_to_slot_or_del(new headset_type, WEAR_L_EAR)
-	new_human.equip_to_slot_or_del(new /obj/item/clothing/under/tshirt/r_bla, WEAR_BODY)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/under/iroclothes/white, WEAR_BODY)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/accessory/storage/black_vest, WEAR_ACCESSORY)
 	new_human.equip_to_slot_or_del(new /obj/item/explosive/grenade/high_explosive, WEAR_IN_ACCESSORY)
 	new_human.equip_to_slot_or_del(new /obj/item/explosive/grenade/high_explosive, WEAR_IN_ACCESSORY)
@@ -236,9 +221,8 @@
 	new_human.equip_to_slot_or_del(new /obj/item/explosive/grenade/high_explosive, WEAR_IN_ACCESSORY)
 	new_human.equip_to_slot_or_del(new /obj/item/explosive/grenade/high_explosive, WEAR_IN_ACCESSORY)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/accessory/holobadge/cord, WEAR_ACCESSORY)
-	new_human.equip_to_slot_or_del(new /obj/item/clothing/suit/storage/marine/light/vest, WEAR_JACKET)
+	new_human.equip_to_slot_or_del(new /obj/item/clothing/suit/storage/windbreaker/windbreaker_iro, WEAR_JACKET)
 	new_human.equip_to_slot_or_del(new /obj/item/device/binoculars/range/designator, WEAR_IN_JACKET)
-	new_human.equip_to_slot_or_del(new /obj/item/weapon/gun/rifle/m41aMK1/tactical, WEAR_J_STORE)
 	new_human.equip_to_slot_or_del(new /obj/item/storage/belt/gun/m4a3/m1911/socom, WEAR_WAIST)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/gloves/marine/veteran, WEAR_HANDS)
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/head/helmet/marine, WEAR_HEAD)
@@ -247,16 +231,10 @@
 	new_human.equip_to_slot_or_del(new /obj/item/clothing/glasses/sunglasses/big, WEAR_FACE)
 	new_human.equip_to_slot_or_del(new /obj/item/storage/pouch/autoinjector/full, WEAR_L_STORE)
 	new_human.equip_to_slot_or_del(new /obj/item/storage/pouch/magazine/large, WEAR_R_STORE)
-	new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/rifle/m41aMK1/ap, WEAR_IN_R_STORE)
-	new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/rifle/m41aMK1/ap, WEAR_IN_R_STORE)
-	new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/rifle/m41aMK1/ap, WEAR_IN_R_STORE)
-	new_human.equip_to_slot_or_del(new /obj/item/ammo_magazine/rifle/m41aMK1/ap, WEAR_IN_R_STORE)
 	//backpack and stuff in it
 	new_human.equip_to_slot_or_del(new /obj/item/storage/backpack/lightpack, WEAR_BACK)
 	new_human.equip_to_slot_or_del(new /obj/item/explosive/plastic/breaching_charge, WEAR_IN_BACK)
 	new_human.equip_to_slot_or_del(new /obj/item/explosive/plastic/breaching_charge, WEAR_IN_BACK)
-	new_human.equip_to_slot_or_del(new /obj/item/explosive/grenade/high_explosive/m15, WEAR_IN_BACK)
-	new_human.equip_to_slot_or_del(new /obj/item/explosive/grenade/high_explosive/m15, WEAR_IN_BACK)
 	new_human.equip_to_slot_or_del(new /obj/item/storage/firstaid/regular/response, WEAR_IN_BACK)
 	new_human.equip_to_slot_or_del(new /obj/item/storage/box/packet/smoke, WEAR_IN_BACK)
 	new_human.equip_to_slot_or_del(new /obj/item/device/motiondetector/m717/hacked/iro, WEAR_IN_BACK)
@@ -265,19 +243,19 @@
 
 //*****************************************************************************************************/
 /datum/equipment_preset/iro/duty/synth
-	name = "Military iro (Synthetic)"
-	paygrades = list(PAY_SHORT_VAI_SN = JOB_PLAYTIME_TIER_0)
+	name = "Synthetic"
+	paygrades = list(PAY_SHORT_IRO_SS = JOB_PLAYTIME_TIER_0)
 	role_comm_title = "Syn"
 	flags = EQUIPMENT_PRESET_EXTRA
 
-	assignment = "VAIPO Support Synthetic"
-	rank = JOB_iro_SYN
-	faction = FACTION_iro
+	assignment = "IRO Support Synthetic"
+	rank = JOB_IRO_SYNTH
+	faction = FACTION_IRO
 	languages = ALL_SYNTH_LANGUAGES
 
 /datum/equipment_preset/iro/duty/synth/load_skills(mob/living/carbon/human/new_human)
 		new_human.set_skills(/datum/skills/synthetic)
-		new_human.allow_gun_usage = FALSE
+		new_human.allow_gun_usage = TRUE //its a synth used by a suspicious gov agency, they dont care
 
 /datum/equipment_preset/iro/duty/synth/load_name(mob/living/carbon/human/new_human, randomise)
 	new_human.gender = pick(50;MALE,50;FEMALE)
@@ -310,7 +288,7 @@
 	new_human.b_eyes = colors[eye_color][3]
 
 /datum/equipment_preset/iro/duty/synth/load_race(mob/living/carbon/human/new_human)
-	new_human.set_species(SYNTH_GEN_THREE)
+	new_human.set_species(SYNTH_INFILTRATOR)
 
 /datum/equipment_preset/iro/duty/synth/load_gear(mob/living/carbon/human/new_human)
 	//back

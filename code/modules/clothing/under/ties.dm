@@ -944,6 +944,13 @@
 	icon_state = "holster"
 	item_state = "holster_low"
 
+/obj/item/clothing/accessory/storage/holster/discreet
+	name = "suspenders"
+	desc = "A discreet handgun holster disguised as a set of suspenders. Perfect for concealed carry."
+	icon_state = "holster"
+	item_state = "holster_low"
+	high_visibility = FALSE
+
 /*
 	Holobadges are worn on the belt or neck, and can be used to show that the holder is an authorized
 	Security agent - the user details can be imprinted on the badge with a Security-access ID card,
